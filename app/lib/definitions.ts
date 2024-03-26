@@ -3,16 +3,10 @@
 // For simplicity of teaching, we're manually defining these types.
 // However, these types are generated automatically if you're using an ORM such as Prisma.
 export type User = {
-  userName: string
-  password: string
-  // userId?: string;
-  // userName: string;
-  // firstname?: string;
-  // lastName?: string;
-  // gender?:string;
-  // token?: string;
-  // password: string;
-  // birthDate?: Date;
+  id: string;
+  name: string;
+  email: string;
+  password: string;
 };
 
 export type Customer = {
